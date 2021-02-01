@@ -10114,6 +10114,16 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 600px) {
+  #my-header {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #my-header {
+    font-size: 2.5vw;
+  }
+}
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
